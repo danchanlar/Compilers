@@ -1,0 +1,6 @@
+0: (begin_block, LexerEdges, _, _)
+1: (:=, 32767, _, x)
+2: (:=, 1, _, longVariableNameThatExceedsThi)
+3: (inp, x, _, _)
+4: (out, x, _, _)
+5: (end_block, LexerEdges, _, _)
