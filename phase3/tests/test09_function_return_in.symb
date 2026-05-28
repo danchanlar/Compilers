@@ -1,0 +1,17 @@
+Symbol Table
+============
+
+Scope: test09funcret, level=0, frame_length=32, start_quad=1, statements_start_quad=8, end_quad=17
+  - Variable(name=a, offset=16)
+  - Variable(name=b, offset=20)
+  - Variable(name=r, offset=24)
+  - Function(name=addmul, params=[x:CV, y:CV], start_quad=2, frame_length=36, level=1)
+  - TempVariable(name=T_3, offset=28)
+
+Scope: addmul, level=1, frame_length=36, start_quad=2, statements_start_quad=3, end_quad=7
+  - Parameter(name=x, mode=CV, offset=16)
+  - Parameter(name=y, mode=CV, offset=20)
+  - Variable(name=z, offset=24)
+  - TempVariable(name=T_1, offset=28)
+  - TempVariable(name=T_2, offset=32)
+

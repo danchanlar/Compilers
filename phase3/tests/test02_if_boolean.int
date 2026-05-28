@@ -1,0 +1,16 @@
+1: begin_block, test02ifbool, _, _
+2: :=, 5, _, a
+3: :=, 10, _, b
+4: :=, 0, _, c
+5: if<, a, b, 7
+6: jump, _, _, 9
+7: if>=, b, 10, 11
+8: jump, _, _, 9
+9: if=, a, 5, 13
+10: jump, _, _, 11
+11: :=, 1, _, c
+12: jump, _, _, 14
+13: :=, 2, _, c
+14: out, c, _, _
+15: halt, _, _, _
+16: end_block, test02ifbool, _, _

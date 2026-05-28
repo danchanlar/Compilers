@@ -1,0 +1,23 @@
+Symbol Table
+============
+
+Scope: test10nested, level=0, frame_length=32, start_quad=1, statements_start_quad=17, end_quad=27
+  - Variable(name=a, offset=16)
+  - Variable(name=b, offset=20)
+  - Variable(name=r, offset=24)
+  - Function(name=outer, params=[x:CV, y:REF], start_quad=2, frame_length=40, level=1)
+  - TempVariable(name=T_5, offset=28)
+
+Scope: outer, level=1, frame_length=40, start_quad=2, statements_start_quad=8, end_quad=16
+  - Parameter(name=x, mode=CV, offset=16)
+  - Parameter(name=y, mode=REF, offset=20)
+  - Variable(name=local, offset=24)
+  - Function(name=inner, params=[z:CV], start_quad=3, frame_length=24, level=2)
+  - TempVariable(name=T_2, offset=28)
+  - TempVariable(name=T_3, offset=32)
+  - TempVariable(name=T_4, offset=36)
+
+Scope: inner, level=2, frame_length=24, start_quad=3, statements_start_quad=4, end_quad=7
+  - Parameter(name=z, mode=CV, offset=16)
+  - TempVariable(name=T_1, offset=20)
+

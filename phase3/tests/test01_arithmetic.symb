@@ -1,0 +1,16 @@
+Symbol Table
+============
+
+Scope: test01arith, level=0, frame_length=60, start_quad=1, statements_start_quad=2, end_quad=16
+  - Variable(name=a, offset=16)
+  - Variable(name=b, offset=20)
+  - Variable(name=c, offset=24)
+  - Variable(name=d, offset=28)
+  - Variable(name=e, offset=32)
+  - TempVariable(name=T_1, offset=36)
+  - TempVariable(name=T_2, offset=40)
+  - TempVariable(name=T_3, offset=44)
+  - TempVariable(name=T_4, offset=48)
+  - TempVariable(name=T_5, offset=52)
+  - TempVariable(name=T_6, offset=56)
+

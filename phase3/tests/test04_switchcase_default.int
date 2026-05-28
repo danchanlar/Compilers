@@ -1,0 +1,15 @@
+1: begin_block, test04switchcase, _, _
+2: :=, 3, _, x
+3: :=, 0, _, y
+4: if=, x, 1, 6
+5: jump, _, _, 8
+6: :=, 10, _, y
+7: jump, _, _, 13
+8: if=, x, 2, 10
+9: jump, _, _, 12
+10: :=, 20, _, y
+11: jump, _, _, 13
+12: :=, 99, _, y
+13: out, y, _, _
+14: halt, _, _, _
+15: end_block, test04switchcase, _, _

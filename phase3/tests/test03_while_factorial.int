@@ -1,0 +1,14 @@
+1: begin_block, test03whilefact, _, _
+2: :=, 5, _, n
+3: :=, 1, _, i
+4: :=, 1, _, fact
+5: if<=, i, n, 7
+6: jump, _, _, 12
+7: *, fact, i, T_1
+8: :=, T_1, _, fact
+9: +, i, 1, T_2
+10: :=, T_2, _, i
+11: jump, _, _, 5
+12: out, fact, _, _
+13: halt, _, _, _
+14: end_block, test03whilefact, _, _

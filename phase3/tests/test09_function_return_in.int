@@ -1,0 +1,17 @@
+1: begin_block, test09funcret, _, _
+2: begin_block, addmul, _, _
+3: *, y, 2, T_1
+4: +, x, T_1, T_2
+5: :=, T_2, _, z
+6: retv, z, _, _
+7: end_block, addmul, _, _
+8: :=, 4, _, a
+9: :=, 6, _, b
+10: par, a, CV, _
+11: par, b, CV, _
+12: par, T_3, RET, _
+13: call, addmul, _, _
+14: :=, T_3, _, r
+15: out, r, _, _
+16: halt, _, _, _
+17: end_block, test09funcret, _, _

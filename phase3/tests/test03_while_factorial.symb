@@ -1,0 +1,10 @@
+Symbol Table
+============
+
+Scope: test03whilefact, level=0, frame_length=36, start_quad=1, statements_start_quad=2, end_quad=14
+  - Variable(name=n, offset=16)
+  - Variable(name=i, offset=20)
+  - Variable(name=fact, offset=24)
+  - TempVariable(name=T_1, offset=28)
+  - TempVariable(name=T_2, offset=32)
+

@@ -1,0 +1,9 @@
+Symbol Table
+============
+
+Scope: test07untilcase, level=0, frame_length=32, start_quad=1, statements_start_quad=2, end_quad=15
+  - Variable(name=x, offset=16)
+  - Variable(name=sum, offset=20)
+  - TempVariable(name=T_1, offset=24)
+  - TempVariable(name=T_2, offset=28)
+

@@ -1,0 +1,8 @@
+Symbol Table
+============
+
+Scope: test02ifbool, level=0, frame_length=28, start_quad=1, statements_start_quad=2, end_quad=16
+  - Variable(name=a, offset=16)
+  - Variable(name=b, offset=20)
+  - Variable(name=c, offset=24)
+

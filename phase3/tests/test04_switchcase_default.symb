@@ -1,0 +1,7 @@
+Symbol Table
+============
+
+Scope: test04switchcase, level=0, frame_length=24, start_quad=1, statements_start_quad=2, end_quad=15
+  - Variable(name=x, offset=16)
+  - Variable(name=y, offset=20)
+
